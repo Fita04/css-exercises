@@ -10,7 +10,13 @@ p {
     font-size: 24px;
 }
 
-.blue-text {
+#blue-text {
     color: blue;
     font-size: 36px;
+}
+
+#light-green-background {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: 700;
 }
