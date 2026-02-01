@@ -15,6 +15,11 @@ body {
   justify-content: center;
 }
 
+.header {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
 .modal {
   background: white;
   width: 480px;
@@ -38,7 +43,9 @@ body {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  margin: 10px;
   margin-bottom: auto;
+  margin-top: 0px;
 }
 
 .close-button {
@@ -55,7 +62,9 @@ body {
   border: 1px solid #eee;
   padding: 0;
   flex-shrink: 0;
+  margin: 8px;
   margin-bottom: auto;
+  margin-top: 0px;
 }
 
 button {
@@ -82,4 +91,11 @@ button.cancel {
 .middle-part {
   display: flex;
   flex-flow: column wrap;
+  gap: 6px;
+}
+
+.bottom-button {
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
