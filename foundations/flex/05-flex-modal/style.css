@@ -73,3 +73,8 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+.middle-part {
+  display: flex;
+  flex-flow: column wrap;
+}
