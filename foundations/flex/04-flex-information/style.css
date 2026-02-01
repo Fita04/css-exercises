@@ -11,6 +11,14 @@ img {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
+  margin-bottom: 32px;
+}
+
+.plants {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: 52px;
 }
 
 /* do not edit this footer */
