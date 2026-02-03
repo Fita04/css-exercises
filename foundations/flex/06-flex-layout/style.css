@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -43,16 +46,17 @@ input {
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
+  background-color: rgb(223, 227, 230);
 }
 
 a {
   text-decoration: none;
+  color: gray;
 }
 
