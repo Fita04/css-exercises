@@ -37,11 +37,15 @@ input {
   display: flex;
   list-style: none;
   padding: 0%;
+  margin-left: 12px;
+  gap: 8px;
 }
 
 .right-links {
   display: flex;
   list-style: none;
+  margin-right: 12px;
+  gap: 8px;
 }
 
 .content {
